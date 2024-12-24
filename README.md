@@ -1,6 +1,9 @@
 # MODULAR programming language
 
-![LOGO](./assets/logo.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/logo_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/logo_light.svg">
+</picture>
 
 > [!IMPORTANT]
 > This a concept/esoteric programming language in planning stage, there are plans 
@@ -79,7 +82,6 @@ of the language.
 here is another example:
 
 ![CODE1](./assets/code1.svg)
-
 
 You can explicitly specify the default compiler if you want.
 

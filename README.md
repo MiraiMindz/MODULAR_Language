@@ -57,6 +57,14 @@ compilers can use a *universal* data type to share data, this type is the
 data type, you just need to provide the necessary parsing and *"stringfication"* 
 functions for it.
 
+This designs assume that *any* specific computation will be made in the scope of
+the correct compiler, so for example, any computation involving an f128
+(or a quad-precision float), will be made in the "data compiler", not the generic
+compiler, because the optmizations for this type are specific to the "data compiler" 
+this will assume that the resulting f128 would only be displayed or stored somewhere, 
+not mainipulated in any arithmetic way, thus being transimited as a string to all
+other compilers.
+
 so by making this we solve for the last two statements of the UNIX philosophy.
 
 This language also provide customizable syntax, using a special kind of directive, 

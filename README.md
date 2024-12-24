@@ -1,8 +1,8 @@
 # MODULAR programming language
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/logo_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/logo_light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/LOGO_LIGHT.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/LOGO_DARK.png">
 </picture>
 
 > [!IMPORTANT]

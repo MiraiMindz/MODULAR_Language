@@ -1,8 +1,8 @@
 # MODULAR programming language
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/logo_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/logo_light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/logo_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/logo_light.svg">
 </picture>
 
 > [!IMPORTANT]

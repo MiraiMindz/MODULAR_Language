@@ -1,9 +1,9 @@
 # MODULAR programming language
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/LOGO_LIGHT.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/LOGO_DARK.png">
-  <img alt="MODULAR LOGO" src="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/LOGO_DARK.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/readme/LOGO_LIGHT.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/readme/LOGO_DARK.png">
+  <img alt="MODULAR LOGO" src="https://raw.githubusercontent.com/MiraiMindz/MODULAR_Language/refs/heads/main/assets/readme/LOGO_DARK.png">
 </picture>
 
 > [!IMPORTANT]
@@ -41,14 +41,14 @@ But *how* we would comunicate between different compiled parts of our program?
 
 Just like software does:
 
-![SOFTWARE_DESIGN](./assets/software_design.svg)
+![SOFTWARE_DESIGN](./assets/readme/software_design.svg)
 
 The way that software comunicate between parts is by using common data structures
 or data types between them.
 
 and this is how the MODULAR language does:
 
-![LANGUAGE_DESIGN](./assets/language_design.svg)
+![LANGUAGE_DESIGN](./assets/readme/language_design.svg)
 
 Files that are compiled using the same compiler can use specific data types or
 data structures to comunicate between them, and files compiled with different 
@@ -70,7 +70,7 @@ so by making this we solve for the last two statements of the UNIX philosophy.
 This language also provide customizable syntax, using a special kind of directive, 
 called a *meta-directive*, here is an example of it:
 
-![CODE0](./assets/code0.svg)
+![CODE0](./assets/readme/code0.svg)
 
 The `@config` is a meta-directive, that tells the compiler how to parse this 
 given file.
@@ -90,7 +90,7 @@ of the language.
 
 here is another example:
 
-![CODE1](./assets/code1.svg)
+![CODE1](./assets/readme/code1.svg)
 
 You can explicitly specify the default compiler if you want.
 
